@@ -2745,12 +2745,11 @@ var __module0__ = (function(__dependency1__, __dependency2__, __dependency3__, _
   return __module0__;
 })();
 
-
 /**
  * Custom addition for the Kanso package. Export the same browser interface
  * when used as a CommonJS module in CouchDB.
  */
 
 if (typeof module !== 'undefined' && typeof exports !== 'undefined') {
-    var exports = module.exports = Handlebars;
+    exports = module.exports = Handlebars;
 }
