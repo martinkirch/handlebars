@@ -12,7 +12,6 @@ Gem::Specification.new do |gem|
   gem.summary       = %q{Handlebars.js source code wrapper}
   gem.homepage      = "https://github.com/wycats/handlebars.js/"
   gem.version       = package["version"]
-  gem.license       = "MIT"
 
   gem.files = [
     'handlebars.js',
